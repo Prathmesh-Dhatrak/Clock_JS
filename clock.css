@@ -1,0 +1,97 @@
+* {
+		box-sizing: border-box;
+	}
+
+html {
+    padding-top:10px;
+}
+
+
+
+body {
+    border: 5px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background-color:#1a2849;
+
+}
+
+#clock {
+		padding: 0px;
+    height:200px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	  color: black;
+		background-image: url("p.jpg");
+		border-radius: 40px;
+}
+
+h2 {
+	text-align:center;
+}
+#main{
+	text-shadow: 3px 2px blue ;
+	font-family: 'Alfa Slab One';
+	font-size: 50px;
+	  height:40px;
+}
+#alarm-container {
+		text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.0em;
+	  color: white;
+
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+		background-color: #8105d8;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+		border-radius: 12px;
+		margin-top: 40px;
+}
+#clearButton {
+    float:right;
+		background-color: #c93838;
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+		border-radius: 12px;
+		margin-top: 40px;
+}
